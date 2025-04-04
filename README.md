@@ -135,8 +135,9 @@ To address the requirements, I'll create a Spring Boot application for transacti
 2. Run: `docker run -p 8080:8080 transaction-app`
 
 ## API Endpoints
-- POST /transactions - Create transaction
-- GET /transactions?page=0&size=10 - List transactions
-- DELETE /transactions/{id} - Delete transaction
+- POST /transaction/create - Create transaction
+- POST /transaction/list - List transactions
+- DELETE /transaction/delete/{id} - Delete transaction
+- POST /transaction/modify - Modify transaction
 ```
 
